@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://fastly.picsum.photos/id/472/1920/1089.jpg?hmac=LLwac7J9oB4QeRrg00i7VRo7Gy81n1FB3xNQNRAneOo");
+}
+
+.container {
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 23px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.inputCity {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 23px;
+    font-size: 18px;
+    background-color: #7c7c2c2b;
+    color: #ffffff;
+    width: calc(100% - 100px);
+}
+
+.btnBusca {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c2c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.imgBusca {
+    width: 20px;
+}
+
+.cidade {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.infoTempo {
+    margin-top: 30px;
+}
+
+.temp {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.tempo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.textoPrevisao {
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #fff;
+}
